@@ -1,0 +1,238 @@
+
+:root{
+    --primary-color: #e50914;
+    --dark-color: #8b85e7;
+    --light-color: #f4f4f4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffff;
+    color: #999999;
+}
+
+ul{
+    list-style: none;
+}
+
+h1,h2,h3,h4{
+    color: #8b85e7;
+}
+
+h3{
+    font-weight: lighter;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p{
+    margin: 0.5rem 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+img{
+    width: 100%;
+}
+
+.showcase{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url("C:\Users\student.AT-32\Downloads\Kawaii.jpg") no-repeat center center/cover;
+}
+
+.showcase-top{
+    position: relative;
+    z-index: 2;
+    height: 90px;
+}
+
+.showcase-top img{
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(40% , -50%);
+}
+
+.showcase-top a{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-60% , -50%);
+}
+
+.showcase-content{
+    background-image: url("");
+    position: relative;
+    margin: 0 26%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.showcase-content h1{
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0 30px;
+    max-width: 800px;
+    line-height: 74.5px;
+}
+
+.showcase-content h3{
+    color: white;
+    font-size: 25px;
+    margin: 16px 0;
+}
+
+.showcase-content p{
+    font-size: 19.2px;
+    font-weight: 300;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.showcase-content input{
+    position: absolute;
+    left: 0;
+    bottom: -8vh;
+    width: 454px;
+    height: 3rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+.btn{
+    display: inline-block;
+    background: #8b85e7;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 0.5rem;
+    outline: none;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.45);
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn-rounded{
+    border-radius: 5px;
+}
+
+.showcase-content .btn-lg{
+    position: absolute;
+    left:28%;
+    bottom: -8vh;
+    padding: 0.5rem 1.2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    height: 36px;
+    width: 14rem;
+}
+.faq{
+    text-align: center;
+}
+
+.faq h1{
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+
+.input{
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: 50% 40%;
+}
+
+.input input{
+    width: 600px;
+    height: 3rem;
+}
+
+.input button{
+    height: 3.25rem;
+    width: 320px;
+    left: 20px;
+    text-align: center;
+    background-color: #8b85e7;
+    font-size: 1.5rem;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.container2{
+    height: 3.25rem;
+    width: 320px;
+    left: 20px;
+    text-align: center;
+    background-color: #8b85e7;
+    font-size: 1.5rem;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+.footer-container {
+    background-color: #f0f0f0;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-content, .footer-info, .footer-social, .footer-privacy {
+    flex: 1 1 200px;
+    margin-right: 20px;
+}
+
+.footer-content h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.footer-content p, .footer-privacy p {
+    margin: 0;
+    color: #8b85e7;
+}
+
+.footer-info ul, .footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-info li, .footer-social li {
+    margin-bottom: 5px;
+}
+
+.footer-info a {
+    color: #8b85e7;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+.footer-privacy p {
+    font-size: 14px;
+}
